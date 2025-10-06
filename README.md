@@ -32,14 +32,12 @@ Export settings:
    - Color space: Rec.709  
    - Resolution: match comp (e.g. 1920×1080)
 
-  
-
-🧠 Tech Stack
+## 🧠 Tech Stack
    - Shopify Section (Liquid + GSAP)
    - jsDelivr (CDN for GitHub images)
    - 60 .webp frames (with alpha)
    - Smooth interpolation via ScrollTrigger
 
-🧩 Used in Shopify Section
+## 🧩 Used in Shopify Section
 /sections/scroll-image-sequence.liquid
 "repo_base_url": "https://cdn.jsdelivr.net/gh/sehetz-ca/scroll-sequence-carnault-cigarette/"
