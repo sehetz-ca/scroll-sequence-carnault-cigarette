@@ -1,10 +1,8 @@
 # 🌀 Carnault Cigarette Scroll Sequence
-
 Smooth scroll-controlled image sequence for Shopify.  
 Each frame is a transparent `.webp`. 
 Used inside the custom Shopify section:  
 `sections/scroll-image-sequence.liquid`
-
 
 ## 📜 Scroll Behaviour
 User scrolls ↓ → animation scrubs through 60 frames  
