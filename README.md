@@ -27,9 +27,7 @@ Export settings:
    - Video codec: VP9  
    - Channels: RGBA *(includes Alpha)*  
    - Framerate: 60 fps (fixed)  
-   - Keyframe interval: 1  
-   - Bitrate: ~10–20 Mbps  
-   - Color space: Rec.709  
+   - CBR: 1'000
    - Resolution: match comp (e.g. 1920×1080)
 
 ## 🧠 Tech Stack
