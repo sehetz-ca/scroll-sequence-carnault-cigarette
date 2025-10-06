@@ -8,7 +8,6 @@ Used inside the custom Shopify section:
 ---
 
 ## 📜 Scroll Behaviour
-────────────────────────────
 **User scrolls ↓ → animation scrubs through 60 frames**  
 - Controlled via GSAP ScrollTrigger  
 - Frames are loaded from GitHub (jsDelivr CDN)  
@@ -17,19 +16,22 @@ Used inside the custom Shopify section:
 Example frame path:  
 https://cdn.jsdelivr.net/gh/sehetz-ca/scroll-sequence-carnault-cigarette/CA_scroll_animation_test_01.webp
 
-markdown
-Code kopieren
 
 ---
 
 ## ⚙️ After Effects Export Guide
-────────────────────────────
-1. **Install the WebM plugin (by fnord):**  
-   👉 https://fnord.com/webm/
 
-2. **In After Effects → Add your comp to Adobe Media Encoder**
+**MAIN** 
+**PNG-SEQUENCE** 
+**Export image sequence via FFmpeg:**
+   - **Export with media encoder to png Sequence**   
+   - **Convert png images with photoshop actions to WebM** 
 
-3. **Export settings:**
+**ALTERNATIVE**
+**VIDEO** 
+**For Video Install the WebM plugin (by fnord):**  
+👉 https://fnord.com/webm/
+**Export settings:**
    - **Format:** WebM  
    - **Video codec:** VP9  
    - **Channels:** RGBA *(includes Alpha)*  
@@ -39,10 +41,7 @@ Code kopieren
    - **Color space:** Rec.709  
    - **Resolution:** match comp (e.g. 1920×1080)
 
-4. **Optional — export image sequence via FFmpeg:**
-   ```bash
-   ffmpeg -i animation.webm CA_scroll_animation_test_%02d.webp
-All exported frames (01–60) go in this repo root.
+  
 
 🧠 Tech Stack
 ────────────────────────────
